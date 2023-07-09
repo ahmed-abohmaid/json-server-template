@@ -6,6 +6,12 @@ const cors = require('cors');
 const isProductionEnv = process.env.NODE_ENV === 'production';
 const server = jsonServer.create()
 
+server.use(cors({
+    origin: 'http://localhost:3000',
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    allowedHeaders: ['Content-Type', 'Authorization']
+  }))
+
 // For mocking the POST request, POST request won't make any changes to the DB in production environment
 const router = jsonServer.router(isProductionEnv ? clone(data) : 'db.json', {
     _isFake: isProductionEnv
@@ -13,7 +19,6 @@ const router = jsonServer.router(isProductionEnv ? clone(data) : 'db.json', {
 const middlewares = jsonServer.defaults()
 
 server.use(middlewares)
-server.use(cors());
 
 server.use((req, res, next) => {
     if (req.path !== '/')
