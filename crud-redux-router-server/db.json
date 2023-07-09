@@ -9,26 +9,6 @@
       "id": 2,
       "title": "LinkedIn Profile",
       "description": "My LinkedIn profile (Ahmed Ramadan): https://www.linkedin.com/in/ahmed-abohmaid"
-    },
-    {
-      "id": 3,
-      "title": "JavaScript",
-      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente dolorem provident beatae quasi similique sequi saepe tenetur rerum mollitia ratione sint, cum ex magni rem ipsa voluptatem fuga inventore odio!"
-    },
-    {
-      "id": 4,
-      "title": "Web Developmet",
-      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente dolorem provident beatae quasi similique sequi saepe tenetur rerum mollitia ratione sint, cum ex magni rem ipsa voluptatem fuga inventore odio!"
-    },
-    {
-      "id": 5,
-      "title": "This is tested title",
-      "description": "This is tested description"
-    },
-    {
-      "id": 6,
-      "title": "This is tested title ",
-      "description": "This is tested description"
     }
   ]
 }
