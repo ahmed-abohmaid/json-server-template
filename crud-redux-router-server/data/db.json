@@ -1,0 +1,54 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "GitHub Repo",
+      "description": "You can find the repo here: https://github.com/ahmed-abohmaid/CRUD-App",
+      "user": "Ahmed Ramadan"
+    },
+    {
+      "id": 2,
+      "title": "LinkedIn Profile",
+      "description": "My LinkedIn profile (Ahmed Ramadan): https://www.linkedin.com/in/ahmed-abohmaid",
+      "user": "Ahmed Ramadan"
+    },
+    {
+      "id": 3,
+      "title": "JavaScript",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis fugiat illo molestias obcaecati consequuntur reprehenderit expedita rerum quod neque, fugit officia dicta. Exercitationem labore repellat earum sequi consequuntur facere incidunt.",
+      "user": "Ahmed Ramadan"
+    },
+    {
+      "id": 4,
+      "title": "JSON Server",
+      "description": "JSON Server is a Node Module that you can use to create demo REST JSON services within a short span of minutes. All we need to do is have a JSON file as sample data.",
+      "user": "Test 1"
+    },
+    {
+      "id": 4,
+      "title": "Test",
+      "description": "This is tested description.",
+      "user": "Test 1"
+    }
+  ],
+  "users": [
+    {
+      "name": "Test 1",
+      "mail": "test@test.com",
+      "password": "Test1234$",
+      "id": 1
+    },
+    {
+      "name": "Ahmed",
+      "mail": "mail@mail.com",
+      "password": "Example123$",
+      "id": 2
+    },
+    {
+      "name": "Ahmed Ramadan",
+      "mail": "email@email.com",
+      "password": "Ahmed1234$",
+      "id": 3
+    }
+  ]
+}
